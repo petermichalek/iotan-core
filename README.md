@@ -58,8 +58,8 @@ cqlversion option:
 ### Passing Cassandra Tests
 
 
-cqlsh
-CREATE KEYSPACE IF NOT EXISTS test WITH replication = { 'class': 'SimpleStrategy', 'replication_factor': 1 };
+    cqlsh
+    CREATE KEYSPACE IF NOT EXISTS test WITH replication = { 'class': 'SimpleStrategy', 'replication_factor': 1 };
 
 ### Cassandra Iotus Keyspace and Database
 
