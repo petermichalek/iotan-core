@@ -69,9 +69,8 @@ has to be setup.
 
 1. For Cassandra IoTan database, create iotus keyspace and init the db:
 
-cqlsh [hostname] 
-CREATE KEYSPACE IF NOT EXISTS iotus WITH replication = { 'class': 'SimpleStrategy', 'replication_factor': 1 };
-CREATE KEYSPACE IF NOT EXISTS test WITH replication = { 'class': 'SimpleStrategy', 'replication_factor': 1 };
+    cqlsh [hostname] 
+    CREATE KEYSPACE IF NOT EXISTS iotus WITH replication = { 'class': 'SimpleStrategy', 'replication_factor': 1 };
 
 2. Then run schema and populate script. See ./db
 
