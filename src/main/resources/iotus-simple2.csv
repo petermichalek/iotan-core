@@ -1,0 +1,7 @@
+geoState,tz,area,area,geoPostalCode,id,dis,equip,siteRef,point,equipRef,unit,kind,temp
+CA,Los_Angeles,3000,3000,95014,@Home,Home,,,,,,,
+NV,Las_Vegas,6000,6000,89701,@Office,Office,,,,,,,
+,Los_Angeles,,,,@Home.ElecMeter-Main,Home ElecMeter-Main,✓,@Home,,,,,
+,Los_Angeles,,,,@Office.RTU-1.ZoneTempSp,Office RTU-1 ZoneTempSp,,@Office,✓,@Office.RTU-1,°F,Number,✓
+,Los_Angeles,,,,@Office.RTU-2.Fan,Office RTU-2 Fan,,@Office,✓,@Office.RTU-2,,Bool,
+,Las_Vegas,,,,@Home.ElecMeter-Hvac.kW,Home ElecMeter-Hvac kW,,@Home,✓,@Office.ElecMeter-Hvac,kW,Number,

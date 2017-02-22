@@ -1,0 +1,14 @@
+ver:"2.0"
+id,area,cov,dis,discharge,equip,equipRef,fan,geoAddr,geoCity,geoCoord,geoCountry,geoPostalCode,geoState,geoStreet,his,kind,navName,point,power,site,siteRef,temp,tz,unit
+@Home,3000,,"Home",,,,,"10800 Torre Ave, Cupertino, CA 95014","Cupertino",,"US","95014","CA","600 W Main St",,,,,,M,,,"Los_Angeles",
+@Office,6000,,"Office",,,,,"900 N Roop St, Carson City, NV 89701","Carson City",,"US","89701","NV","3504 W Cary St",,,,,,M,,,"Las_Vegas",
+@Home.ElecMeter-Main,,,"Home ElecMeter-Main",,M,,,,,,,,,,,,"ElecMeter-Main",,,,@Home,,"Los_Angeles",
+@Office.RTU-1,,,"Office RTU-1",,M,,,,,,,,,,,,"RTU-O-01",,,,@Office,,"Las_Vegas",
+@Office.RTU-2,,,"Office RTU-2",,M,,,,,,,,,,,,"RTU-O-02",,,,@Office,,"Las_Vegas",
+@Office.RTU-1.ZoneTempSp,,M,"Office RTU-1 ZoneTempSp",,,@Office.RTU-1,,,,,,,,,M,,"ZoneTempSp",M,,,@Office,,"Los_Angeles",
+@Office.RTU-1.DischargeTemp,,,"Office RTU-1 DischargeTemp",M,,@Office.RTU-1,,,,,,,,,M,,"DischargeTemp",M,,,@Office,,"Los_Angeles",
+@Office.RTU-2.Fan,,,"Office RTU-2 Fan",M,,@Office.RTU-2,M,,,,,,,,M,,"Fan",M,,,@Office,,"Los_Angeles",
+@Office.RTU-2.ReturnTemp,,,"Office RTU-2 ReturnTemp",,,@Office.RTU-2,,,,,,,,,M,,"ReturnTemp",M,,,@Office,,"Las_Vegas",
+@Office.RTU-2.ZoneTempSp,,M,"Office RTU-2 ZoneTempSp",,,@Office.RTU-2,,,,,,,,,M,,"ZoneTempSp",M,,,@Office,,"Las_Vegas",
+@Home.ElecMeter-Hvac.kW,,,"Home ElecMeter-Hvac kW",,,@Office.ElecMeter-Hvac,,,,,,,,,M,,"kW",M,M,,@Home,,"Las_Vegas",
+

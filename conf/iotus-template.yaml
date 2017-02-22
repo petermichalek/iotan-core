@@ -1,0 +1,18 @@
+# database url
+db: cassandra://localhost:9042/iotus
+
+# default timezone for this deployment
+defaultTimezone: America/Los_Angeles
+
+# authentication mechanism ldap|db
+#auth: ldap
+auth: db
+
+# ldap connection properties, used if auth is ldap
+#   not use id auth is db
+ldap:
+  url: ldap://ldap.example.com:389
+  username: admin
+  password: secret
+  searchBase: dc=example,dc=com
+

@@ -1,0 +1,13 @@
+# database url
+# usage:
+# sed 's/CASSANDRA_HOST/172.0.0.1/' iotus-TEMPLATE.yaml
+# sed "s/CASSANDRA_HOST/$CASSANDRA_HOST/" iotus-TEMPLATE.yaml
+
+db: cassandra://CASSANDRA_HOST:9042/iotus
+
+# default timezone for this deployment
+defaultTimezone: America/Los_Angeles
+
+# authentication mechanism ldap|db
+auth: db
+
